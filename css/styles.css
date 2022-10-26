@@ -486,8 +486,7 @@ img {
 }
 .footer-container {
   display: flex;
-  list-style: none;
-  gap: 30px
+   
 }
 .footer-row {
   flex-direction: column;
