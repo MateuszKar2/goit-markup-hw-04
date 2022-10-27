@@ -111,11 +111,10 @@ body {
   align-items: center;
   width: 100%;
   padding-bottom: 200px;
-  /*height: 600px;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../images/pictura.jpg) no-repeat;
+    url(../images/picture.jpg) no-repeat;
   background-position: 50% 50%;
-  background-size: cover;*/
+  background-size: cover;
 }
 .top-section-text {
   text-align: center;
@@ -536,7 +535,7 @@ img {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--white);
+  color: var(--white);  
 }
 .footer-icons {
   display: flex;
@@ -550,4 +549,10 @@ img {
   background-color: var(--footericon);
   border-radius: 50%;
   fill: var(--white);
+  padding: 0;
+}
+.footer-icon:hover {
+  cursor: pointer;
+  background-color: var(--active-color);
+  --color1: var(--bcg2-color)
 }
