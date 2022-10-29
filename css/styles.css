@@ -90,10 +90,6 @@ body {
 .icon-space {
   margin-right: 10px;
 } 
-.icon-spaces {
-  margin-right: 10px;
-  background-color: var(--blue);
-} 
 .contact-link-style {
   color: var(--grey);
   font-weight: 500;
