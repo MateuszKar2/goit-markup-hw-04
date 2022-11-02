@@ -114,7 +114,10 @@ body {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../images/picture.jpg) no-repeat;
   background-position: 50% 50%;
+  margin: auto;
   background-size: cover;
+  max-width: 1600px;
+  
 }
 .top-section-text {
   text-align: center;
@@ -211,6 +214,12 @@ ul {
 }
 img {
     display: block;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--white-item);
+  background-color: var(--brand-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .caption-border {
