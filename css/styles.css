@@ -90,6 +90,10 @@ body {
 .icon-space {
   margin-right: 10px;
 } 
+.icon-space:hover,
+.icon-space:focus {
+  --color1: var(--blue);
+}
 .contact-link-style {
   color: var(--grey);
   font-weight: 500;
@@ -401,13 +405,6 @@ img {
   background-color: var(--white); 
   border-radius: 50%;
 }
-.icon-team-link-blue{
-  
-  width: 44px;
-  height: 44px;
-  background-color: var(--blue); 
-  border-radius: 50%;
-}
 .icon-team-link:hover {
   fill: var(--white);
   background-color: var(--blue);
@@ -451,14 +448,6 @@ img {
   height: 92px;
   fill: var(--iconcolor);
 } 
-.icon-ourclient-blue {
-  border: 1px solid var(--iconcolor);
-  border-radius: 4px;
-  width: 170px;
-  height: 92px;
-  fill: var(--blue);
-}
-
 .icon-ourclient:hover {
   cursor: pointer;
   fill: var(--blue);
@@ -578,14 +567,6 @@ img {
   align-items: center;
   margin-top: 20px;
   gap: 10px;
-}
-.footer-icon-blue {
-  width: 44px;
-  height: 44px;
-  background-color: var(--blue);
-  border-radius: 50%;
-  fill: var(--white);
-  padding: 0;
 }
 .footer-icon {
   width: 44px;
